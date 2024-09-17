@@ -12,7 +12,7 @@ bot = telebot.TeleBot(TOKEN)
 
 
 # Подключаемся к Google Sheets API
-CREDS_FILE = 'sino-435916-3c5ffe4d48f5.json'
+CREDS_FILE = 'sino-435916-918d9d5753f7.json'
 creds = Credentials.from_service_account_file(CREDS_FILE, scopes=[
     'https://www.googleapis.com/auth/spreadsheets',
     'https://www.googleapis.com/auth/drive'
